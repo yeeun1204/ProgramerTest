@@ -1,0 +1,17 @@
+class Solution {
+    public String solution(int n) {
+       
+       
+        String R ="";
+        for(int i=1;i<=n;i++){
+          if(i % 2 == 0){
+              R += "박";
+          }else R += "수"; 
+        }
+        System.out.print(R);        
+        
+        
+        // String answer = "";
+        return R;
+    }
+}
